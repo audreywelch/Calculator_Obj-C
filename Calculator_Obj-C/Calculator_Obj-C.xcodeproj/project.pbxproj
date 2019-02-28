@@ -13,6 +13,7 @@
 		84169E42222883C8007F7A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84169E40222883C8007F7A33 /* LaunchScreen.storyboard */; };
 		84169E45222883C8007F7A33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84169E44222883C8007F7A33 /* main.m */; };
 		84169E5222288C3E007F7A33 /* ALWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84169E5122288C3E007F7A33 /* ALWViewController.m */; };
+		84169E592228AAD0007F7A33 /* ALWStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 84169E582228AAD0007F7A33 /* ALWStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		84169E44222883C8007F7A33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84169E5022288C3E007F7A33 /* ALWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALWViewController.h; sourceTree = "<group>"; };
 		84169E5122288C3E007F7A33 /* ALWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALWViewController.m; sourceTree = "<group>"; };
+		84169E572228AAD0007F7A33 /* ALWStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALWStack.h; sourceTree = "<group>"; };
+		84169E582228AAD0007F7A33 /* ALWStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALWStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		84169E34222883C6007F7A33 /* Calculator_Obj-C */ = {
 			isa = PBXGroup;
 			children = (
+				84169E5322288FDB007F7A33 /* Model */,
 				84169E4F222887FA007F7A33 /* View Controllers */,
 				84169E4E2228877B007F7A33 /* Storyboards */,
 				84169E35222883C6007F7A33 /* AppDelegate.h */,
@@ -85,6 +89,15 @@
 				84169E5122288C3E007F7A33 /* ALWViewController.m */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		84169E5322288FDB007F7A33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84169E572228AAD0007F7A33 /* ALWStack.h */,
+				84169E582228AAD0007F7A33 /* ALWStack.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +173,7 @@
 				84169E45222883C8007F7A33 /* main.m in Sources */,
 				84169E5222288C3E007F7A33 /* ALWViewController.m in Sources */,
 				84169E37222883C6007F7A33 /* AppDelegate.m in Sources */,
+				84169E592228AAD0007F7A33 /* ALWStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
